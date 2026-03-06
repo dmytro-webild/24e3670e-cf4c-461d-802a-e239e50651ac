@@ -87,7 +87,7 @@ export default function LandingPage() {
             { text: "Schedule Consultation", href: "#contact" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png?_wi=1"
           imageAlt="Creative agency dashboard showcase"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -129,15 +129,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              tag: "Discovery",              title: "Strategy & Planning",              subtitle: "Understanding your vision and market landscape",              description: "We immerse ourselves in your business, conducting comprehensive research and strategy sessions to craft a roadmap that drives results. Every decision is data-informed and aligned with your objectives.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png",              imageAlt: "Strategic planning and research phase",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Discovery",              title: "Strategy & Planning",              subtitle: "Understanding your vision and market landscape",              description: "We immerse ourselves in your business, conducting comprehensive research and strategy sessions to craft a roadmap that drives results. Every decision is data-informed and aligned with your objectives.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png?_wi=1",              imageAlt: "Strategic planning and research phase",              buttons: [{ text: "Learn More", href: "#" }],
             },
             {
               id: 2,
-              tag: "Creation",              title: "Design & Development",              subtitle: "Bringing concepts to life with precision",              description: "Our creative team designs stunning interfaces while our developers build robust, scalable solutions. We focus on user experience and technical excellence, ensuring your platform is both beautiful and powerful.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png",              imageAlt: "Design execution and development",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Creation",              title: "Design & Development",              subtitle: "Bringing concepts to life with precision",              description: "Our creative team designs stunning interfaces while our developers build robust, scalable solutions. We focus on user experience and technical excellence, ensuring your platform is both beautiful and powerful.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png?_wi=1",              imageAlt: "Design execution and development",              buttons: [{ text: "Learn More", href: "#" }],
             },
             {
               id: 3,
-              tag: "Launch",              title: "Deployment & Optimization",              subtitle: "Ensuring a seamless market entry",              description: "We manage every aspect of launch, from final testing to deployment, ensuring a smooth go-live. Post-launch, we monitor performance and optimize continuously to maximize your ROI and user engagement.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png",              imageAlt: "Project launch and deployment",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Launch",              title: "Deployment & Optimization",              subtitle: "Ensuring a seamless market entry",              description: "We manage every aspect of launch, from final testing to deployment, ensuring a smooth go-live. Post-launch, we monitor performance and optimize continuously to maximize your ROI and user engagement.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png?_wi=1",              imageAlt: "Project launch and deployment",              buttons: [{ text: "Learn More", href: "#" }],
             },
           ]}
         />
@@ -216,7 +216,7 @@ export default function LandingPage() {
           features={[
             {
               id: "1",              title: "Brand Strategy & Design",              description: "We develop compelling brand identities that differentiate you in the market. From logo design to comprehensive brand guidelines, we ensure consistency and impact across all touchpoints.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png?_wi=2"
               },
               items: [
                 { icon: Palette, text: "Visual identity systems" },
@@ -228,7 +228,7 @@ export default function LandingPage() {
             },
             {
               id: "2",              title: "Web Design & Development",              description: "Beautiful, fast, and conversion-focused websites built with the latest technologies. We combine stunning design with solid architecture to create digital experiences that perform.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png?_wi=2"
               },
               items: [
                 { icon: Code, text: "Modern web technologies" },
@@ -240,7 +240,7 @@ export default function LandingPage() {
             },
             {
               id: "3",              title: "Digital Marketing & SEO",              description: "Strategic marketing solutions that drive traffic, engagement, and conversions. We leverage data and creativity to amplify your message and reach your ideal audience.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png?_wi=2"
               },
               items: [
                 { icon: TrendingUp, text: "SEO optimization" },
@@ -252,7 +252,7 @@ export default function LandingPage() {
             },
             {
               id: "4",              title: "UX/UI Design & Research",              description: "User-centered design approach that puts your audience first. We conduct research, create intuitive interfaces, and validate solutions through testing to ensure maximum impact.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png"
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png?_wi=2"
               },
               items: [
                 { icon: Eye, text: "User research & testing" },
