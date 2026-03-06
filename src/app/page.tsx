@@ -46,7 +46,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="medium"
       sizing="medium"
-      background="aurora"
+      background="circleGradient"
       cardStyle="layered-gradient"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
@@ -62,7 +62,8 @@ export default function LandingPage() {
             { name: "Testimonials", id: "testimonials" },
           ]}
           button={{
-            text: "Start Project",            href: "#contact"}}
+            text: "Start Project",            href: "#contact"
+          }}
           animateOnLoad={true}
         />
       </div>
@@ -71,7 +72,7 @@ export default function LandingPage() {
         <HeroSplitKpi
           title="Transform Your Vision Into Digital Reality"
           description="We craft award-winning digital experiences that elevate brands, engage audiences, and drive measurable results for forward-thinking companies."
-          background={{ variant: "aurora" }}
+          background={{ variant: "glowing-orb" }}
           kpis={[
             { value: "500+", label: "Projects Delivered" },
             { value: "98%", label: "Client Satisfaction" },
@@ -86,7 +87,7 @@ export default function LandingPage() {
             { text: "Schedule Consultation", href: "#contact" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png"
           imageAlt="Creative agency dashboard showcase"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -128,15 +129,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              tag: "Discovery",              title: "Strategy & Planning",              subtitle: "Understanding your vision and market landscape",              description: "We immerse ourselves in your business, conducting comprehensive research and strategy sessions to craft a roadmap that drives results. Every decision is data-informed and aligned with your objectives.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png?_wi=1",              imageAlt: "Strategic planning and research phase",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Discovery",              title: "Strategy & Planning",              subtitle: "Understanding your vision and market landscape",              description: "We immerse ourselves in your business, conducting comprehensive research and strategy sessions to craft a roadmap that drives results. Every decision is data-informed and aligned with your objectives.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png",              imageAlt: "Strategic planning and research phase",              buttons: [{ text: "Learn More", href: "#" }],
             },
             {
               id: 2,
-              tag: "Creation",              title: "Design & Development",              subtitle: "Bringing concepts to life with precision",              description: "Our creative team designs stunning interfaces while our developers build robust, scalable solutions. We focus on user experience and technical excellence, ensuring your platform is both beautiful and powerful.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png?_wi=1",              imageAlt: "Design execution and development",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Creation",              title: "Design & Development",              subtitle: "Bringing concepts to life with precision",              description: "Our creative team designs stunning interfaces while our developers build robust, scalable solutions. We focus on user experience and technical excellence, ensuring your platform is both beautiful and powerful.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png",              imageAlt: "Design execution and development",              buttons: [{ text: "Learn More", href: "#" }],
             },
             {
               id: 3,
-              tag: "Launch",              title: "Deployment & Optimization",              subtitle: "Ensuring a seamless market entry",              description: "We manage every aspect of launch, from final testing to deployment, ensuring a smooth go-live. Post-launch, we monitor performance and optimize continuously to maximize your ROI and user engagement.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png?_wi=1",              imageAlt: "Project launch and deployment",              buttons: [{ text: "Learn More", href: "#" }],
+              tag: "Launch",              title: "Deployment & Optimization",              subtitle: "Ensuring a seamless market entry",              description: "We manage every aspect of launch, from final testing to deployment, ensuring a smooth go-live. Post-launch, we monitor performance and optimize continuously to maximize your ROI and user engagement.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png",              imageAlt: "Project launch and deployment",              buttons: [{ text: "Learn More", href: "#" }],
             },
           ]}
         />
@@ -181,17 +182,23 @@ export default function LandingPage() {
           useInvertedBackground={true}
           testimonials={[
             {
-              id: "1",              name: "Sarah Chen, CEO of TechFlow",              date: "Date: January 15, 2025",              title: "A complete game-changer for our brand",              quote: "Working with Creative Studio transformed our entire digital presence. Their strategic approach and attention to detail resulted in a 300% increase in qualified leads within six months. The team was collaborative, responsive, and truly invested in our success.",              tag: "SaaS Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png",              avatarAlt: "Sarah Chen",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png"},
+              id: "1",              name: "Sarah Chen, CEO of TechFlow",              date: "Date: January 15, 2025",              title: "A complete game-changer for our brand",              quote: "Working with Creative Studio transformed our entire digital presence. Their strategic approach and attention to detail resulted in a 300% increase in qualified leads within six months. The team was collaborative, responsive, and truly invested in our success.",              tag: "SaaS Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png",              avatarAlt: "Sarah Chen",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png"
+            },
             {
-              id: "2",              name: "Marcus Rodriguez, Marketing Director at GrowthCo",              date: "Date: December 28, 2024",              title: "Exceeded all our expectations",              quote: "The team understood our brand voice from day one and created campaigns that resonated deeply with our audience. Their data-driven approach combined with creative excellence delivered exceptional ROI. Highly recommend for any ambitious brand.",              tag: "E-Commerce",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png",              avatarAlt: "Marcus Rodriguez",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png"},
+              id: "2",              name: "Marcus Rodriguez, Marketing Director at GrowthCo",              date: "Date: December 28, 2024",              title: "Exceeded all our expectations",              quote: "The team understood our brand voice from day one and created campaigns that resonated deeply with our audience. Their data-driven approach combined with creative excellence delivered exceptional ROI. Highly recommend for any ambitious brand.",              tag: "E-Commerce",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png",              avatarAlt: "Marcus Rodriguez",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png"
+            },
             {
-              id: "3",              name: "Jennifer Wu, Operations Lead at StartupXYZ",              date: "Date: November 10, 2024",              title: "Professional, creative, and results-driven",              quote: "From initial concept to launch, Creative Studio managed every detail with precision and creativity. Our new platform is not only beautiful but also incredibly functional. The entire experience was seamless and professional. They're now an extension of our team.",              tag: "Mobile App",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png",              avatarAlt: "Jennifer Wu",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png"},
+              id: "3",              name: "Jennifer Wu, Operations Lead at StartupXYZ",              date: "Date: November 10, 2024",              title: "Professional, creative, and results-driven",              quote: "From initial concept to launch, Creative Studio managed every detail with precision and creativity. Our new platform is not only beautiful but also incredibly functional. The entire experience was seamless and professional. They're now an extension of our team.",              tag: "Mobile App",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png",              avatarAlt: "Jennifer Wu",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png"
+            },
             {
-              id: "4",              name: "David Park, Founder of InnovateLabs",              date: "Date: October 5, 2024",              title: "Transformed our vision into reality",              quote: "We came with an ambitious vision and Creative Studio not only understood it but enhanced it. Their strategic insights, combined with stunning design execution, positioned us perfectly in the market. Within months, we saw significant traction and partnerships.",              tag: "AI Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png",              avatarAlt: "David Park",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png"},
+              id: "4",              name: "David Park, Founder of InnovateLabs",              date: "Date: October 5, 2024",              title: "Transformed our vision into reality",              quote: "We came with an ambitious vision and Creative Studio not only understood it but enhanced it. Their strategic insights, combined with stunning design execution, positioned us perfectly in the market. Within months, we saw significant traction and partnerships.",              tag: "AI Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png",              avatarAlt: "David Park",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png"
+            },
             {
-              id: "5",              name: "Lisa Thompson, Creative Director at BrandStudio",              date: "Date: September 22, 2024",              title: "True creative partners in every sense",              quote: "Working with this team was an absolute pleasure. They brought fresh perspectives, innovative solutions, and unwavering attention to quality. Our rebrand exceeded expectations and strengthened our market position significantly.",              tag: "Brand Design",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png",              avatarAlt: "Lisa Thompson",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png"},
+              id: "5",              name: "Lisa Thompson, Creative Director at BrandStudio",              date: "Date: September 22, 2024",              title: "True creative partners in every sense",              quote: "Working with this team was an absolute pleasure. They brought fresh perspectives, innovative solutions, and unwavering attention to quality. Our rebrand exceeded expectations and strengthened our market position significantly.",              tag: "Brand Design",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png",              avatarAlt: "Lisa Thompson",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png"
+            },
             {
-              id: "6",              name: "Robert Kumar, VP of Strategy at EnterpriseCorp",              date: "Date: August 18, 2024",              title: "A strategic powerhouse",              quote: "Beyond aesthetics, Creative Studio brings strategic thinking that drives measurable business outcomes. Their holistic approach to design and development ensured we built something that truly moves the needle for our organization.",              tag: "Enterprise",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png",              avatarAlt: "Robert Kumar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png"},
+              id: "6",              name: "Robert Kumar, VP of Strategy at EnterpriseCorp",              date: "Date: August 18, 2024",              title: "A strategic powerhouse",              quote: "Beyond aesthetics, Creative Studio brings strategic thinking that drives measurable business outcomes. Their holistic approach to design and development ensured we built something that truly moves the needle for our organization.",              tag: "Enterprise",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png",              avatarAlt: "Robert Kumar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png"
+            },
           ]}
         />
       </div>
@@ -209,7 +216,8 @@ export default function LandingPage() {
           features={[
             {
               id: "1",              title: "Brand Strategy & Design",              description: "We develop compelling brand identities that differentiate you in the market. From logo design to comprehensive brand guidelines, we ensure consistency and impact across all touchpoints.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png?_wi=2"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-polished-image-showing-the-design-exec-1772823182681-f451d64c.png"
+              },
               items: [
                 { icon: Palette, text: "Visual identity systems" },
                 { icon: Lightbulb, text: "Brand positioning strategy" },
@@ -220,7 +228,8 @@ export default function LandingPage() {
             },
             {
               id: "2",              title: "Web Design & Development",              description: "Beautiful, fast, and conversion-focused websites built with the latest technologies. We combine stunning design with solid architecture to create digital experiences that perform.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png?_wi=2"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-stunning-creative-agency-dashboard-sho-1772823183019-5d98d3ac.png"
+              },
               items: [
                 { icon: Code, text: "Modern web technologies" },
                 { icon: Smartphone, text: "Responsive design" },
@@ -231,7 +240,8 @@ export default function LandingPage() {
             },
             {
               id: "3",              title: "Digital Marketing & SEO",              description: "Strategic marketing solutions that drive traffic, engagement, and conversions. We leverage data and creativity to amplify your message and reach your ideal audience.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png?_wi=2"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/a-detailed-illustration-of-the-creative--1772823183464-bc4a66c6.png"
+              },
               items: [
                 { icon: TrendingUp, text: "SEO optimization" },
                 { icon: BarChart3, text: "Analytics & reporting" },
@@ -242,7 +252,8 @@ export default function LandingPage() {
             },
             {
               id: "4",              title: "UX/UI Design & Research",              description: "User-centered design approach that puts your audience first. We conduct research, create intuitive interfaces, and validate solutions through testing to ensure maximum impact.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png?_wi=2"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/an-exciting-image-representing-the-launc-1772823181685-6286f312.png"
+              },
               items: [
                 { icon: Eye, text: "User research & testing" },
                 { icon: Layout, text: "Wireframing & prototyping" },
@@ -259,7 +270,7 @@ export default function LandingPage() {
         <ContactText
           text="Ready to elevate your digital presence? Let's collaborate to create something extraordinary that drives real business results."
           animationType="entrance-slide"
-          background={{ variant: "aurora" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={false}
           buttons={[
             { text: "Start Your Project", href: "mailto:hello@creativestudio.com" },
