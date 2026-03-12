@@ -6,7 +6,6 @@ import HeroSplitKpi from "@/components/sections/hero/HeroSplitKpi";
 import TextAbout from "@/components/sections/about/TextAbout";
 import FeatureCardNineteen from "@/components/sections/feature/FeatureCardNineteen";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TestimonialCardFive from "@/components/sections/testimonial/TestimonialCardFive";
 import FeatureCardTen from "@/components/sections/feature/FeatureCardTen";
 import ContactText from "@/components/sections/contact/ContactText";
 import FooterCard from "@/components/sections/footer/FooterCard";
@@ -15,14 +14,12 @@ import {
   Star,
   Zap,
   TrendingUp,
-  Quote,
   Palette,
   Lightbulb,
   Rocket,
   Briefcase,
   Heart,
   Users,
-  Check,
   Code,
   Smartphone,
   Lock,
@@ -59,7 +56,6 @@ export default function LandingPage() {
             { name: "Work", id: "features" },
             { name: "Process", id: "process" },
             { name: "About", id: "about" },
-            { name: "Testimonials", id: "testimonials" },
           ]}
           button={{
             text: "Start Project",            href: "#contact"
@@ -168,38 +164,6 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
-        />
-      </div>
-
-      <div id="testimonials" data-section="testimonials">
-        <TestimonialCardFive
-          title="Client Stories"
-          description="See how we've transformed businesses through strategic design and development."
-          tag="Testimonials"
-          tagIcon={Quote}
-          tagAnimation="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={true}
-          testimonials={[
-            {
-              id: "1",              name: "Sarah Chen, CEO of TechFlow",              date: "Date: January 15, 2025",              title: "A complete game-changer for our brand",              quote: "Working with Creative Studio transformed our entire digital presence. Their strategic approach and attention to detail resulted in a 300% increase in qualified leads within six months. The team was collaborative, responsive, and truly invested in our success.",              tag: "SaaS Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png",              avatarAlt: "Sarah Chen",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-confident-ceo-1772823180947-5bae3543.png"
-            },
-            {
-              id: "2",              name: "Marcus Rodriguez, Marketing Director at GrowthCo",              date: "Date: December 28, 2024",              title: "Exceeded all our expectations",              quote: "The team understood our brand voice from day one and created campaigns that resonated deeply with our audience. Their data-driven approach combined with creative excellence delivered exceptional ROI. Highly recommend for any ambitious brand.",              tag: "E-Commerce",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png",              avatarAlt: "Marcus Rodriguez",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-marketing-dir-1772823180685-9ff19576.png"
-            },
-            {
-              id: "3",              name: "Jennifer Wu, Operations Lead at StartupXYZ",              date: "Date: November 10, 2024",              title: "Professional, creative, and results-driven",              quote: "From initial concept to launch, Creative Studio managed every detail with precision and creativity. Our new platform is not only beautiful but also incredibly functional. The entire experience was seamless and professional. They're now an extension of our team.",              tag: "Mobile App",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png",              avatarAlt: "Jennifer Wu",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-product-or-op-1772823183411-e255326d.png"
-            },
-            {
-              id: "4",              name: "David Park, Founder of InnovateLabs",              date: "Date: October 5, 2024",              title: "Transformed our vision into reality",              quote: "We came with an ambitious vision and Creative Studio not only understood it but enhanced it. Their strategic insights, combined with stunning design execution, positioned us perfectly in the market. Within months, we saw significant traction and partnerships.",              tag: "AI Platform",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png",              avatarAlt: "David Park",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-startup-found-1772823181000-6ff18e24.png"
-            },
-            {
-              id: "5",              name: "Lisa Thompson, Creative Director at BrandStudio",              date: "Date: September 22, 2024",              title: "True creative partners in every sense",              quote: "Working with this team was an absolute pleasure. They brought fresh perspectives, innovative solutions, and unwavering attention to quality. Our rebrand exceeded expectations and strengthened our market position significantly.",              tag: "Brand Design",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png",              avatarAlt: "Lisa Thompson",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-creative-dire-1772823183656-edecd41a.png"
-            },
-            {
-              id: "6",              name: "Robert Kumar, VP of Strategy at EnterpriseCorp",              date: "Date: August 18, 2024",              title: "A strategic powerhouse",              quote: "Beyond aesthetics, Creative Studio brings strategic thinking that drives measurable business outcomes. Their holistic approach to design and development ensured we built something that truly moves the needle for our organization.",              tag: "Enterprise",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png",              avatarAlt: "Robert Kumar",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AWS0SvlKRcaADFivgsxikxljMH/professional-headshot-of-a-business-deve-1772823180649-ef25482a.png"
-            },
-          ]}
         />
       </div>
 
